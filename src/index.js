@@ -85,7 +85,7 @@ function GettingStarted() {
 
 const registerPhoneHandler = () => {
   const protocol = "tel";
-  const url = `${location.href}/sendWhatsappTo/%s`;
+  const url = `${location.href}sendWhatsappTo/%s`;
   const title = "Whatsapp Web message sending";
 
   navigator.registerProtocolHandler(protocol, url, title);
